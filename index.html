@@ -16,12 +16,12 @@
         }
     </style>
   </head>
-  <body class="bg-gray-50 flex flex-col min-h-screen">
+  <body class="flex flex-col min-h-screen w-screen">
     <!-- Navbar -->
     <nav id="navbar" class="fixed top-0 w-full bg-white shadow-md z-50 transition-transform duration-300">
       <div class="container mx-auto p-4 flex justify-between items-center">
         <span class="text-3xl font-bold domine">Brand</span>
-        <ul class="flex space-x-4 text-xl">
+        <ul class="hidden space-x-4 text-xl md:flex">
           <li><a href="#" class="text-gray-700 hover:text-gray-900">Home</a></li>
           <li><a href="#" class="text-gray-700 hover:text-gray-900">About</a></li>
           <li><a href="#" class="text-gray-700 hover:text-gray-900">Services</a></li>
@@ -30,33 +30,34 @@
       </div>
     </nav>
 
-    <div class="mt-24 xl:max-w-screen-lg 2xl:max-w-screen-xl self-center space-y-10 px-6">
-        <div class="flex flex-row w-full gap-4">
-            <div class="flex flex-col h-full w-1/2 gap-4">
-                <div class="flex flex-col bg-gray-300 h-96 px-6 py-8 space-y-2 gap-2">
-                    <h1 class="domine text-4xl font-bold">Drive Performance with Predictive Analysis</h1>
-                    <p class="text-xl">Enhance equipment efficiency and reduce downtime with our cutting-edge IoT predictive maintenance solutions, tailored for India's diverse needs.</p>
+    <div class="mt-24 w-screen xl:max-w-screen-lg 2xl:max-w-screen-xl self-center justify-center items-center space-y-10 px-4 md:px-6">
+        <div class="flex flex-col-reverse md:flex-row w-full gap-4">
+            <div class="flex flex-col h-full md:w-1/2 gap-4">
+                <div class="flex flex-col bg-gray-300 lg:h-96 px-4 lg:px-6 py-8 space-y-2 gap-2">
+                    <h1 class="domine text-2xl md:text-4xl font-bold">Drive Performance with Predictive Analysis</h1>
+                    <p class="text-base md:text-xl">Enhance equipment efficiency and reduce downtime with our cutting-edge IoT predictive maintenance solutions, tailored for India's diverse needs.</p>
                     <div class="h-full"></div>
-                    <span class="self-end space-x-4">
-                        <button class="px-6 p-2 border border-black bg-black text-gray-200 text-lg hover:bg-white hover:underline hover:text-black transition-all duration-700 ease-in-out">Enhance Now</button>
+                    <span class="flex flex-row justify-center md:justify-end gap-4 w-full">
+                        <button class="x px-6 p-2 border border-black bg-black text-gray-200 text-lg hover:bg-white hover:underline hover:text-black transition-all duration-700 ease-in-out">Enhance Now</button>
                         <button class="px-6 p-2 border border-black bg-gray-100 text-lg hover:bg-black hover:text-white transition-all duration-700 ease-in-out">Learn More</button>
                     </span>
                 </div>
-                <div class="flex flex-row h-full gap-4">
+                <div class="flex flex-row h-full gap-4 ">
                     <div class="flex flex-col bg-gray-500 aspect-square w-1/2">
+                        <img class="h-full w-auto object-cover hover:scale-105 transition-all duration-300 shadow-md" src="./media/download.jpeg">
 
                     </div>
                     <div class="flex flex-col bg-gray-500 aspect-square w-1/2">
-
+                        <img class="h-full w-auto object-cover hover:scale-105 transition-all duration-300 shadow-md" src="./media/Best Property Maintenance In  Singapore - Facility Bot.jpeg">
                     </div>
                 </div>
             </div>
-            <div class="bg-gray-700 w-1/2">
-
+            <div class="bg-gray-700 md:w-1/2">
+                <img class="h-full w-auto object-cover hover:scale-105 transition-all duration-300 shadow-md" src="./media/2a108c292414c34e9536dea3c32e8d07.jpg">
             </div>
         </div>
-        <h2 class="text-3xl font-bold w-5/6">Revolutionize your maintenance strategy with our cutting-edge IoT predictive maintenance solutions. We provide Indian industries with real-time insights and advancced analytics to enhance operational efficiency, reduce downtime, and predict equipment failures before they occur. Embrace the power of data-driven maintenance and keep your operations running seamlessly with our innovative technology.</h2>
-        <div class="grid grid-cols-3 gap-4">
+        <h2 class="text-2xl md:text-3xl font-bold md:w-5/6">Revolutionize your maintenance strategy with our cutting-edge IoT predictive maintenance solutions. We provide Indian industries with real-time insights and advancced analytics to enhance operational efficiency, reduce downtime, and predict equipment failures before they occur. Embrace the power of data-driven maintenance and keep your operations running seamlessly with our innovative technology.</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div class="w-full aspect-square bg-gray-500">
     
             </div>
@@ -76,42 +77,42 @@
 
             </div>
         </div>
-        <div class="flex flex-row h-full gap-6 items-center">
-            <div class="flex h-[512px] w-1/2 bg-gray-700">
+        <div class="flex flex-col md:flex-row h-full gap-6 items-center">
+            <div class="flex w-full h-96 md:h-[512px] md:w-1/2 bg-gray-700">
             </div>
-            <div class="w-1/2 space-y-2">
-                <h1 class="domine text-4xl font-bold">Innovative IoT Predictive Maintenance Solutions</h1>
-                <h2 class="domine text-xl">IOT PM is a leading provider of IoT predictive maintenance solutions based in India. Our cutting-edge technology helps businessed monitor equipment health, predict failures, and optimize maintenance schedules, ensuring maximum efficiency and minimal downtime.</h2>
+            <div class="md:w-1/2 space-y-2">
+                <h1 class="domine text-2xl md:text-4xl font-bold">Innovative IoT Predictive Maintenance Solutions</h1>
+                <h2 class="domine text-base md:text-xl">IOT PM is a leading provider of IoT predictive maintenance solutions based in India. Our cutting-edge technology helps businessed monitor equipment health, predict failures, and optimize maintenance schedules, ensuring maximum efficiency and minimal downtime.</h2>
                 <p class="text-xl">With a commitment to innovation and customer satisfaction, IOT PM transforms the way industries manage their assets by leveraging data-driven insights.</p>
             </div>
         </div>
-        <div class="space-y-3">
+        <div class="space-y-3 ">
             <div class="space-y-2">
-                <p class="font-semibold">Optimized Operations</p>
-                <h1 class="font-bold domine text-4xl">Enhance Efficiency with IoT Insights</h1>
-                <p class="font-medium">Boost operational efficiency with cutting-edge IoT predictive maintenance solutions tailored for diverse industries across India.</p>
+                <p class="text-sm font-semibold">Optimized Operations</p>
+                <h1 class="font-bold domine text-2xl md:text-4xl">Enhance Efficiency with IoT Insights</h1>
+                <p class="font-medium text-base">Boost operational efficiency with cutting-edge IoT predictive maintenance solutions tailored for diverse industries across India.</p>
             </div>
-            <div class="flex gap-4 h-64">
-                <div class="w-1/4 bg-gray-900 px-4 py-8 space-y-4">
-                    <h1 class="text-2xl domine font-bold text-white">Real Time Equipment Monitoring</h1>
+            <div class="flex flex-col md:flex-row gap-4 lg:h-64">
+                <div class="md:w-1/4 bg-gray-900 px-4 py-8 space-y-4">
+                    <h1 class="text-xl lg:text-2xl domine font-bold text-white">Real Time Equipment Monitoring</h1>
                     <p class="text-white text-sm">Monitor your equipment in real-time to prevent unexpected failures and reduce downtime.</p>
                 </div>
-                <div class="w-1/4 bg-gray-900 px-4 py-8 space-y-4">
-                    <h1 class="text-2xl domine font-bold text-white">Predictive Maintenance Alerts</h1>
+                <div class="md:w-1/4 bg-gray-900 px-4 py-8 space-y-4">
+                    <h1 class="text-xl lg:text-2xl domine font-bold text-white">Predictive Maintenance Alerts</h1>
                     <p class="text-white text-sm">Receive timely alerts for maintenance needs, extending equipment lifespan and enhancing reliability.</p>
                 </div>
-                <div class="w-1/4 bg-gray-900 px-4 py-8 space-y-4">
-                    <h1 class="text-2xl domine font-bold text-white">Data-Driven Performance Insights</h1>
+                <div class="md:w-1/4 bg-gray-900 px-4 py-8 space-y-4">
+                    <h1 class="text-xl lg:text-2xl domine font-bold text-white">Data-Driven Performance Insights</h1>
                     <p class="text-white text-sm">Gain insights into your machinery's performance with data analytics for informed decision-making.</p>
                 </div>
-                <div class="w-1/4 bg-gray-900 px-4 py-8 space-y-4">
-                    <h1 class="text-2xl domine font-bold text-white">Automated Maintenance Scheduling</h1>
+                <div class="md:w-1/4 bg-gray-900 px-4 py-8 space-y-4">
+                    <h1 class="text-xl lg:text-2xl domine font-bold text-white">Automated Maintenance Scheduling</h1>
                     <p class="text-white text-sm">Optimize maintenance scheuldes automatically to enqure peak operation efficiency and cost savings.</p>
                 </div>
             </div>
     
         </div>
-        <div class="space-y-3">
+        <div class="space-y-3 hidden">
             <div class="space-y-2">
                 <p class="font-semibold">Indusry Expertise</p>
                 <h1 class="font-bold domine text-4xl">Trusted by Industry Leaders</h1>
@@ -132,7 +133,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row gap-2 h-64">
+        <div class="flex flex-row gap-2 h-64 hidden">
             <div class="w-1/2 bg-gray-200 shadow-md p-6 py-8">
                 <div class="flex items-center gap-4">
                     <!-- User Avatar -->
@@ -165,20 +166,20 @@
                 </p>
             </div>
         </div>
-        <div class="flex flex-row p-8 gap-8 bg-gray-300 shadow-md h-full items-start">
-            <form class="w-1/2">
+        <div class="flex flex-col-reverse md:flex-row p-8 gap-8 bg-gray-300 shadow-md h-full items-start">
+            <form class="md:w-1/2 w-full">
                 <h2 class="text-4xl font-bold domine mb-4 text-left">Contact Us</h2>
-                <div class="flex flex-row gap-4 w-full">
+                <div class="flex flex-col gap-4 w-full">
                     <!-- Name Field -->
                     <div class="w-full mb-4 space-y-2">
                         <label for="name" class="block text-lg font-bold text-black">Full Name</label>
-                        <input type="text" id="name" name="name" class="w-full p-3 text-white bg-gray-900 border hover:bg-white hover:border-black hover:underline hover:text-black focus:bg-white focus:text-black transition-all duration-700 ease-in-out" required />
+                        <input type="text" id="name" name="name" class="w-full p-3 text-white bg-gray-500 border hover:bg-white hover:border-black hover:underline hover:text-black focus:bg-white focus:text-black transition-all duration-700 ease-in-out" required />
                     </div>
                 
                     <!-- Email Field -->
                     <div class="w-full mb-4 space-y-2">
                         <label for="email" class="block text-lg font-bold text-black">Email Address</label>
-                        <input type="email" id="email" name="email" class="w-full p-3 text-white bg-gray-900 border hover:bg-white hover:border-black hover:underline hover:text-black focus:bg-white focus:text-black transition-all duration-700 ease-in-out" required />
+                        <input type="email" id="email" name="email" class="w-full p-3 text-white bg-gray-500 border hover:bg-white hover:border-black hover:underline hover:text-black focus:bg-white focus:text-black transition-all duration-700 ease-in-out" required />
                     </div>
                 </div>
                 
@@ -186,7 +187,7 @@
                 <!-- Message Field -->
                 <div class="mb-4 space-y-2">
                     <label for="message" class="block text-lg font-bold text-black">Your Message</label>
-                    <textarea id="message" name="message" rows="4" class="w-full p-3 text-white bg-gray-900 border hover:bg-white hover:border-black hover:text-black focus:bg-white focus:text-black transition-all duration-700 ease-in-out" required></textarea>
+                    <textarea id="message" name="message" rows="4" class="w-full p-3 text-white bg-gray-500 border hover:bg-white hover:border-black hover:text-black focus:bg-white focus:text-black transition-all duration-700 ease-in-out" required></textarea>
                 </div>
             
                 <!-- Submit Button -->
@@ -194,17 +195,15 @@
                     <button type="submit" class="px-6 p-2 border border-black bg-black text-gray-200 text-lg hover:bg-white hover:underline hover:text-black transition-all duration-700 ease-in-out">Send Message</button>
                 </div>
             </form>
-            <div class="flex flex-col w-1/2 h-auto items-center justify-between gap-8 self-center">
+            <div class="flex flex-col md:w-1/2 h-auto items-center justify-between gap-8 w-full self-center">
                 <h2 class="text-4xl font-bold domine text-center">Get In Touch Today</h2>
                 <p class="text-2xl">Please Find us on social platforms below!</p>
-                <div class="flex text-4xl gap-4 bg-gray-200 items-center border border-black hover:bg-black p-3 transition-all duration-700 hover:text-gray-500 rounded-full px-8">
+                <div class="flex md:px-8 w-full items-center justify-between text-2xl md:text-4xl bg-gray-200 items-center border border-black hover:bg-black p-3 transition-all duration-700 hover:text-gray-500 rounded-full">
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                    <a href="#" class="fa fa-facebook w-12 text-center hover:text-white"></a>
-                    <a href="#" class="fa fa-instagram w-12 text-center hover:text-white"></a>
-                    <a href="#" class="fa fa-twitter w-12 text-center hover:text-white"></a>
-                    <a href="#" class="fa fa-envelope w-12 text-center hover:text-white"></a>
-                    <a href="#" class="fa fa-reddit w-12 text-center hover:text-white"></a>
-                    <a href="#" class="fa fa-github w-12 text-center hover:text-white"></a>
+                    <a href="#" class="fa fa-instagram w-1/6 text-center hover:text-white"></a>
+                    <a href="#" class="fa fa-twitter w-1/6 text-center hover:text-white"></a>
+                    <a href="#" class="fa fa-reddit w-1/6 text-center hover:text-white"></a>
+                    <a href="#" class="fa fa-github w-1/6 text-center hover:text-white"></a>
                 </div>
             </div>
         </div>
